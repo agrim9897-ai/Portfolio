@@ -44,16 +44,6 @@ export const PROJECTS: Project[] = [
     href: "https://www.houserve.in",
     objectFit: "cover",
   },
-  {
-    id: "project-04",
-    number: "04",
-    title: "MAYURA",
-    category: "RESTAURANT MANAGEMENT · WEB APP · POS & RESERVATIONS",
-    year: "2026",
-    description: "Full-stack restaurant management platform for fine dining establishments featuring live table bookings, menu administration, POS order tracking, and guest analytics.",
-    image: "/projects/mayura.png",
-    href: "https://mayura-restaurant-management-system.vercel.app/",
-    objectFit: "cover",
-  },
+
 ];
 

@@ -31,6 +31,11 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   title: `${BRAND.name} — ${BRAND.role}`,
   description: BRAND.tagline,
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({

@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-antonio), "Antonio", sans-serif;
+  --font-sans: var(--font-inter), "Inter", sans-serif;
+  --font-serif: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+}
+
+@layer base {
+  :root {
+    --background: #0b090a;
+    --text-primary: #f4eee9;
+    --text-secondary: #c8bfba;
+    --text-muted: #7c7471;
+    --border: #221d20;
+    --border-hover: #3a3236;
+    --accent: #ff3b5c;
+
+    --font-display: var(--font-antonio), "Antonio", sans-serif;
+    --font-sans: var(--font-inter), "Inter", sans-serif;
+    --font-serif: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  }
+
+  html {
+    background-color: #0b090a;
+    color: #f4eee9;
+    scroll-behavior: auto;
+  }
+
+  body {
+    background-color: #0b090a;
+    color: #f4eee9;
+    font-family: var(--font-sans);
+    font-weight: 300;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Force display typography to be light, thin, tall and elegant - NEVER bold or blocky */
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: var(--font-display);
+    font-weight: 300 !important;
+    letter-spacing: 0em;
+  }
+
+  p, span, button, input, textarea, select, a, .font-body, .font-sans {
+    font-family: var(--font-sans);
+    font-weight: 300;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b090a;
+}
+::-webkit-scrollbar-thumb {
+  background: #221d20;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3236;
+}
+
+/* Lenis CSS */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}

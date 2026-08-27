@@ -75,7 +75,7 @@ export default function About() {
         {/* Editorial About Layout */}
         <div className="pt-4">
           <div ref={bioRef} className="flex flex-col space-y-8 max-w-4xl">
-            <h2 ref={statementRef} className="group font-serif text-xl sm:text-2xl md:text-3xl lg:text-[2.25rem] font-light tracking-wide text-[#f4eee9] uppercase leading-[1.25] cursor-pointer transition-colors duration-300 hover:text-[#ff3b5c]">
+            <h2 ref={statementRef} className="group font-serif text-2xl sm:text-3xl md:text-4xl lg:text-[2.25rem] font-light tracking-wide text-[#f4eee9] uppercase leading-[1.3] cursor-pointer transition-colors duration-300 hover:text-[#ff3b5c]">
               {ABOUT_DATA.statement}
             </h2>
 
@@ -83,7 +83,7 @@ export default function About() {
               {ABOUT_DATA.bio.map((paragraph: string, idx: number) => (
                 <p
                   key={idx}
-                  className="font-serif text-xs sm:text-sm md:text-[15px] font-light italic tracking-wide leading-[1.8] text-[#c8bfba] transition-colors duration-300 hover:text-[#f4eee9]"
+                  className="font-serif text-base sm:text-lg md:text-xl font-light italic tracking-wide leading-[1.8] text-[#c8bfba] transition-colors duration-300 hover:text-[#f4eee9]"
                 >
                   {paragraph}
                 </p>

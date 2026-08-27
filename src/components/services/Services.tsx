@@ -132,12 +132,12 @@ export default function Services() {
 
                   {/* Short Description & Expand Indicator (Cols 8-12) */}
                   <div className="md:col-span-5 flex items-center justify-between space-x-6">
-                    <p className="font-body text-sm font-light text-[#c8bfba] transition-colors duration-300 group-hover:text-[#f4eee9]">
+                    <p className="font-body text-base font-light text-[#c8bfba] transition-colors duration-300 group-hover:text-[#f4eee9]">
                       {service.shortDesc}
                     </p>
 
                     <div className="flex items-center space-x-3 shrink-0">
-                      <span className="hidden lg:inline-block font-sans text-[11px] font-light tracking-wider text-[#ff3b5c] uppercase opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-1">
+                      <span className="hidden lg:inline-block font-sans text-xs font-light tracking-wider text-[#ff3b5c] uppercase opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-1">
                         SCOPE
                       </span>
                       <span
@@ -155,10 +155,10 @@ export default function Services() {
                 {isExpanded && (
                   <div className="pb-6 pt-2 md:pl-16 pr-4">
                     <div className="border-l border-[#221d20] pl-6 py-2">
-                      <div className="font-sans text-[11px] font-light tracking-wider text-[#7c7471] uppercase mb-4">
+                      <div className="font-sans text-xs font-light tracking-wider text-[#7c7471] uppercase mb-4">
                         DELIVERABLES & SCOPE
                       </div>
-                      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 font-body text-xs font-light text-[#c8bfba]">
+                      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 font-body text-sm font-light text-[#c8bfba]">
                         {service.details.map((detail: string, idx: number) => (
                           <li key={idx} className="flex items-center space-x-2 transition-colors duration-300 hover:text-[#f4eee9]">
                             <span className="h-1.5 w-1.5 rounded-full bg-[#ff3b5c]" />

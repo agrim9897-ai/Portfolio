@@ -125,10 +125,10 @@ export default function Process() {
               <span className="font-sans text-xs font-light tracking-wider text-[#7c7471]">
                 PHASE {step.number}
               </span>
-              <h3 className="font-display text-3xl font-light text-[#f4eee9] uppercase leading-[1.15]">
+              <h3 className="font-display text-3xl sm:text-4xl font-light text-[#f4eee9] uppercase leading-[1.15]">
                 {step.title}
               </h3>
-              <p className="font-body text-sm font-light text-[#c8bfba]">
+              <p className="font-body text-base font-light leading-relaxed text-[#c8bfba]">
                 {step.description}
               </p>
             </div>

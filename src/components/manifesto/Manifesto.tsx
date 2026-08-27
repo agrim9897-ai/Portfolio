@@ -63,28 +63,28 @@ export default function Manifesto() {
         <div className="flex flex-col space-y-3 md:space-y-4 w-full">
           {/* Line 1 */}
           <div ref={line1Ref} className="overflow-hidden py-1 w-full flex justify-start">
-            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extralight tracking-wider text-[#c8bfba] uppercase leading-[1.1] cursor-pointer transition-colors duration-300 hover:text-[#ff3b5c]">
+            <h2 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extralight tracking-wider text-[#c8bfba] uppercase leading-[1.1] cursor-pointer transition-colors duration-300 hover:text-[#ff3b5c]">
               WE DON'T BUILD
             </h2>
           </div>
 
           {/* Line 2 */}
           <div ref={line2Ref} className="overflow-hidden py-1 w-full flex justify-start">
-            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light tracking-wider text-[#f4eee9] uppercase leading-[1.1] cursor-pointer transition-colors duration-300 hover:text-[#ff3b5c]">
+            <h2 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-wider text-[#f4eee9] uppercase leading-[1.1] cursor-pointer transition-colors duration-300 hover:text-[#ff3b5c]">
               WEBSITES TO FILL SCREENS.
             </h2>
           </div>
 
           {/* Line 3 */}
           <div ref={line3Ref} className="overflow-hidden py-1 w-full flex justify-start">
-            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extralight tracking-wider text-[#c8bfba] uppercase leading-[1.1] cursor-pointer transition-colors duration-300 hover:text-[#ff3b5c]">
+            <h2 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extralight tracking-wider text-[#c8bfba] uppercase leading-[1.1] cursor-pointer transition-colors duration-300 hover:text-[#ff3b5c]">
               WE BUILD THEM
             </h2>
           </div>
 
           {/* Line 4 */}
           <div ref={line4Ref} className="overflow-hidden py-1 w-full flex justify-start">
-            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light tracking-wider text-[#f4eee9] uppercase leading-[1.1] cursor-pointer transition-colors duration-300 hover:text-[#ff3b5c]">
+            <h2 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-wider text-[#f4eee9] uppercase leading-[1.1] cursor-pointer transition-colors duration-300 hover:text-[#ff3b5c]">
               TO LEAVE AN IMPRESSION.
             </h2>
           </div>

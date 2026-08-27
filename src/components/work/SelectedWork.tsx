@@ -248,7 +248,7 @@ export default function SelectedWork() {
 
                     {/* Project Title with Mask Reveal */}
                     <div className="overflow-hidden py-1">
-                      <h2 className="chapter-title-text font-display text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light tracking-[0.12em] text-[#f4eee9] uppercase leading-tight transition-colors duration-300 hover:text-[#ff3b5c]">
+                      <h2 className="chapter-title-text font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light tracking-[0.1em] text-[#f4eee9] uppercase leading-tight transition-colors duration-300 hover:text-[#ff3b5c]">
                         <Link href={project.href} target="_blank" rel="noopener noreferrer" data-pointer="VIEW">
                           {project.title}
                         </Link>
@@ -257,12 +257,12 @@ export default function SelectedWork() {
 
                     {/* Metadata & Description */}
                     <div className="chapter-meta-text flex flex-col space-y-4 pt-1">
-                      <p className="font-sans text-sm sm:text-base font-light leading-relaxed text-[#c8bfba] max-w-lg">
+                      <p className="font-sans text-base sm:text-lg font-light leading-relaxed text-[#c8bfba] max-w-lg">
                         {project.description}
                       </p>
 
                       <div className="flex items-center space-x-2 pt-1">
-                        <span className="border border-[#221d20] px-3 py-1 font-sans text-[11px] font-light tracking-widest text-[#7c7471] uppercase">
+                        <span className="border border-[#221d20] px-3 py-1.5 font-sans text-xs font-light tracking-widest text-[#7c7471] uppercase">
                           {project.category}
                         </span>
                       </div>
@@ -274,7 +274,7 @@ export default function SelectedWork() {
                         href={project.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group/link inline-flex items-center space-x-3 font-sans text-xs font-light tracking-widest text-[#f4eee9] uppercase transition-colors hover:text-[#ff3b5c]"
+                        className="group/link inline-flex items-center space-x-3 font-sans text-sm font-light tracking-widest text-[#f4eee9] uppercase transition-colors hover:text-[#ff3b5c]"
                         data-pointer="VIEW"
                       >
                         <span className="border-b border-[#f4eee9]/30 pb-0.5 group-hover/link:border-[#ff3b5c] transition-colors">

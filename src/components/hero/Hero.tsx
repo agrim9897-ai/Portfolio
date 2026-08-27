@@ -144,7 +144,7 @@ export default function Hero() {
         >
           <h1
             ref={titleRef}
-            className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-[6rem] font-light tracking-[0.35em] sm:tracking-[0.45em] text-[#f4eee9] uppercase leading-none pl-[0.35em] sm:pl-[0.45em]"
+            className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-[6rem] font-light tracking-[0.3em] sm:tracking-[0.45em] text-[#f4eee9] uppercase leading-none pl-[0.3em] sm:pl-[0.45em]"
             style={{
               textShadow: "0 10px 40px rgba(0,0,0,0.8)",
               willChange: "transform, opacity, filter",
@@ -161,13 +161,13 @@ export default function Hero() {
         >
           <p
             ref={taglineRef}
-            className="font-display text-[10px] sm:text-xs md:text-sm lg:text-base font-light text-[#c8bfba] uppercase tracking-[0.35em] pl-[0.35em] leading-normal"
+            className="font-display text-xs sm:text-sm md:text-base font-light text-[#c8bfba] uppercase tracking-[0.3em] pl-[0.3em] leading-normal"
             style={{
               textShadow: "0 5px 20px rgba(0,0,0,0.9)",
               willChange: "transform, opacity, filter",
             }}
           >
-            WE CREATE EPIC SHIT.
+            WE BUILD SOMETHING THAT MATTERS.
           </p>
         </div>
       </div>

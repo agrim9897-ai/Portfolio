@@ -79,11 +79,11 @@ export default function About() {
               {ABOUT_DATA.statement}
             </h2>
 
-            <div className="flex flex-col space-y-4 pt-1">
+            <div className="flex flex-col space-y-5 pt-2">
               {ABOUT_DATA.bio.map((paragraph: string, idx: number) => (
                 <p
                   key={idx}
-                  className="font-serif text-base sm:text-lg md:text-xl font-light italic tracking-wide leading-[1.8] text-[#c8bfba] transition-colors duration-300 hover:text-[#f4eee9]"
+                  className="font-serif text-lg sm:text-xl md:text-2xl font-light italic tracking-wide leading-[1.8] text-[#c8bfba] transition-colors duration-300 hover:text-[#f4eee9]"
                 >
                   {paragraph}
                 </p>

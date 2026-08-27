@@ -96,14 +96,14 @@ export default function CinematicIntro({ onComplete }: CinematicIntroProps) {
       className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#0b090a] px-6 select-none"
     >
       <div className="flex flex-col items-center text-center space-y-4 max-w-2xl">
-        {/* Frame 3: WE BUILD */}
+        {/* Frame 3: WE CREATE */}
         <div className="overflow-hidden py-1">
           <h2
             ref={line1Ref}
             style={{ opacity: 0 }}
             className="translate-y-full opacity-0 font-display text-xl sm:text-2xl font-light tracking-wide text-[#c8bfba] uppercase"
           >
-            WE BUILD
+            WE CREATE
           </h2>
         </div>
 
@@ -113,14 +113,14 @@ export default function CinematicIntro({ onComplete }: CinematicIntroProps) {
           className="h-[1px] w-24 scale-x-0 bg-[#221d20] transition-transform"
         />
 
-        {/* Frame 5: SOMETHING THAT MATTERS. */}
+        {/* Frame 5: EPIC SHIT. */}
         <div className="overflow-hidden py-2">
           <h1
             ref={line2Ref}
             style={{ opacity: 0 }}
             className="translate-y-full opacity-0 font-display text-5xl sm:text-7xl md:text-8xl font-light tracking-wide text-[#f4eee9] uppercase leading-[1.15]"
           >
-            SOMETHING THAT MATTERS.
+            EPIC SHIT.
           </h1>
         </div>
       </div>

@@ -167,7 +167,7 @@ export default function Hero() {
               willChange: "transform, opacity, filter",
             }}
           >
-            WE BUILD SOMETHING THAT MATTERS.
+            WE CREATE EPIC SHIT.
           </p>
         </div>
       </div>
